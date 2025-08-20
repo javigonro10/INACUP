@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Simple - INACUP</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            background: #1a1a1a;
+            color: white;
+        }
+        .simple-card { 
+            border: 2px solid #e74c3c; 
+            padding: 20px; 
+            margin: 10px; 
+            cursor: pointer; 
+            background: #2c3e50;
+            border-radius: 10px;
+        }
+        .simple-card:hover { 
+            background: #34495e; 
+            border-color: #f39c12;
+        }
+        button {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px;
+        }
+        button:hover {
+            background: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔥 Prueba Simple de Navegación - INACUP FRONTI3R</h1>
+    
+    <h2>Botones de Prueba Directa:</h2>
+    <button onclick="testDirect(1)">Ir a Ash Ketchum (ID: 1)</button>
+    <button onclick="testDirect(2)">Ir a Misty (ID: 2)</button>
+    <button onclick="testDirect(3)">Ir a Brock (ID: 3)</button>
+    
+    <h2>Tarjetas de Participantes:</h2>
+    <div id="cardsContainer">
+        <p>Cargando...</p>
+    </div>
+    
+    <h2>Debug Info:</h2>
+    <div id="debugInfo"></div>
+    
+    <script src="participants.js"></script>
+    <script>
+        console.log('=== PÁGINA DE PRUEBA SIMPLE ===');
+        
+        function updateDebug(message) {
+            const debugDiv = document.getElementById('debugInfo');
+            debugDiv.innerHTML += '<div>' + new Date().toLocaleTimeString() + ': ' + message + '</div>';
+            console.log(message);
+        }
+        
+        function testDirect(id) {
+            updateDebug('Probando navegación directa a ID: ' + id);
+            localStorage.setItem('selectedParticipant', id);
+            updateDebug('Guardado en localStorage: ' + localStorage.getItem('selectedParticipant'));
+            window.location.href = 'profile.html';
+        }
+        
+        // Verificar que participants esté disponible
+        if (typeof participants !== 'undefined') {
+            updateDebug('Array participants cargado correctamente. Total: ' + participants.length);
+            
+            const container = document.getElementById('cardsContainer');
+            container.innerHTML = '';
+            
+            // Mostrar solo los primeros 5 para prueba
+            participants.slice(0, 5).forEach(participant => {
+                const card = document.createElement('div');
+                card.className = 'simple-card';
+                card.innerHTML = `
+                    <h3>${participant.name}</h3>
+                    <p>ID: ${participant.id}</p>
+                    <p>Starter: ${participant.starterPokemon}</p>
+                `;
+                
+                card.onclick = function() {
+                    updateDebug('Click en tarjeta: ' + participant.name + ' (ID: ' + participant.id + ')');
+                    localStorage.setItem('selectedParticipant', participant.id);
+                    updateDebug('Guardado en localStorage: ' + localStorage.getItem('selectedParticipant'));
+                    window.location.href = 'profile.html';
+                };
+                
+                container.appendChild(card);
+            });
+        } else {
+            updateDebug('ERROR: Array participants no está disponible');
+        }
+        
+        updateDebug('Página de prueba cargada completamente');
+    </script>
+</body>
+</html>

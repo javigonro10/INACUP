@@ -1,0 +1,368 @@
+:root {
+    --primary-color: #DC7B0A;        /* Naranja principal del logo */
+    --secondary-color: #6C6864;      /* Gris del logo */
+    --accent-color: #F7E27A;         /* Amarillo dorado del logo */
+    --accent-secondary: #FBE932;     /* Amarillo brillante del logo */
+    --dark-accent: #F5BA29;          /* Naranja/amarillo del logo */
+    --dark-bg: #1a1a1a;             /* Negro profundo */
+    --light-bg: #A8993E;            /* Verde oliva del logo */
+    --card-bg: #747459;              /* Gris verdoso del logo */
+    --text-light: #F1EEC8;          /* Crema claro del logo */
+    --text-dark: #333333;
+    --shadow: rgba(0, 0, 0, 0.3);
+    --gradient: linear-gradient(135deg, var(--primary-color), var(--dark-accent));
+    --gradient-secondary: linear-gradient(135deg, var(--accent-color), var(--accent-secondary));
+}
+
+.pokeball-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.profile-section {
+    padding: 40px 0;
+    background: var(--dark-bg);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+    padding: 40px;
+    background: var(--card-bg);
+    border-radius: 20px;
+    box-shadow: 0 10px 40px var(--shadow);
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: var(--gradient-secondary);
+}
+
+.profile-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid var(--accent-color);
+    object-fit: cover;
+    box-shadow: 0 8px 30px var(--shadow);
+}
+
+.profile-basic-info h1 {
+    font-family: 'Orbitron', monospace;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.participant-number-badge {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: var(--accent-color);
+    color: var(--text-dark);
+    font-family: 'Orbitron', monospace;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(247, 226, 122, 0.4);
+}
+
+.profile-basic-info .starter-info {
+    display: inline-block;
+    background: var(--gradient-secondary);
+    color: var(--text-dark);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.profile-basic-info .coach-status {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.profile-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.profile-main-info {
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px var(--shadow);
+}
+
+.profile-main-info h2 {
+    font-family: 'Orbitron', monospace;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.profile-bio {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.profile-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sidebar-card {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px var(--shadow);
+}
+
+.sidebar-card h3 {
+    font-family: 'Orbitron', monospace;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.starter-showcase {
+    text-align: center;
+}
+
+.starter-pokemon-image {
+    margin-bottom: 15px;
+}
+
+.pokemon-starter-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.pokemon-starter-img:hover {
+    transform: scale(1.05);
+}
+
+.starter-name {
+    font-family: 'Orbitron', monospace;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+.starter-description {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--text-light);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.social-link:hover {
+    background: rgba(247, 226, 122, 0.1);
+    border-color: var(--accent-color);
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+
+.twitter { background: #000000; }
+.instagram { background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); }
+.youtube { background: #ff0000; }
+.twitch { background: #9146ff; }
+.kick { background: #04ff00f9; }
+
+/* Sección de historial */
+.history-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--dark-bg) 0%, var(--light-bg) 50%, var(--dark-bg) 100%);
+}
+
+.history-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.history-card {
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px var(--shadow);
+    text-align: center;
+    border: 2px solid transparent;
+}
+
+.history-card:hover {
+    border-color: var(--accent-color);
+    background: var(--light-bg);
+}
+
+.history-card h3 {
+    font-family: 'Orbitron', monospace;
+    color: var(--accent-color);
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.history-result {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.result-champion {
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #333;
+}
+
+.result-finalist {
+    background: linear-gradient(135deg, #c0c0c0, #e8e8e8);
+    color: #333;
+}
+
+.result-semifinalist {
+    background: linear-gradient(135deg, #cd7f32, #daa520);
+    color: white;
+}
+
+.result-other {
+    background: var(--gradient);
+    color: white;
+}
+
+.result-no-participation {
+    background: rgba(255, 255, 255, 0.1);
+    color: #888;
+}
+
+/* Sección del coach */
+.coach-section {
+    padding: 80px 0;
+    background: var(--dark-bg);
+}
+
+.coach-info {
+    background: var(--card-bg);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px var(--shadow);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.coach-details h3 {
+    font-family: 'Orbitron', monospace;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.coach-bio {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .profile-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .coach-info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .profile-avatar {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .profile-basic-info h1 {
+        font-size: 2rem;
+    }
+    
+    .history-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-header {
+        padding: 20px;
+    }
+    
+    .profile-main-info, .sidebar-card, .coach-info {
+        padding: 20px;
+    }
+    
+    .profile-basic-info h1 {
+        font-size: 1.8rem;
+    }
+}

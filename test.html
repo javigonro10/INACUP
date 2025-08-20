@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - INACUP</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-card { 
+            border: 1px solid #ccc; 
+            padding: 20px; 
+            margin: 10px; 
+            cursor: pointer; 
+            background: #f0f0f0;
+        }
+        .test-card:hover { background: #e0e0e0; }
+    </style>
+</head>
+<body>
+    <h1>Test de Navegación</h1>
+    <p>Esta página es para probar la navegación a perfiles.</p>
+    
+    <div id="testArea">
+        <p>Cargando participantes...</p>
+    </div>
+    
+    <button onclick="testNavigation()">Ir a perfil de Ash (ID: 1)</button>
+    
+    <script src="participants.js"></script>
+    <script>
+        console.log('Test page loaded');
+        console.log('Participants available:', typeof participants !== 'undefined');
+        
+        if (typeof participants !== 'undefined') {
+            console.log('Total participants:', participants.length);
+            
+            const testArea = document.getElementById('testArea');
+            testArea.innerHTML = '<h3>Primeros 5 participantes:</h3>';
+            
+            participants.slice(0, 5).forEach(participant => {
+                const card = document.createElement('div');
+                card.className = 'test-card';
+                card.innerHTML = `
+                    <strong>${participant.name}</strong><br>
+                    ID: ${participant.id}<br>
+                    Starter: ${participant.starterPokemon}
+                `;
+                
+                card.addEventListener('click', function() {
+                    console.log('Clicked on:', participant.name);
+                    localStorage.setItem('selectedParticipant', participant.id);
+                    window.location.href = 'profile.html';
+                });
+                
+                testArea.appendChild(card);
+            });
+        }
+        
+        function testNavigation() {
+            console.log('Test button clicked');
+            localStorage.setItem('selectedParticipant', '1');
+            window.location.href = 'profile.html';
+        }
+    </script>
+</body>
+</html>
