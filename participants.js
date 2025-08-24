@@ -92,7 +92,7 @@ const participants = [
         starterPokemon: "Aron",
         pokemonImage: "imagenes/aron.png",
         hasCoach: false,
-        bio: "Investigador Pokémon y rival de la infancia de Ash, nieto del Profesor Oak.",
+        bio: "Este tío tiene a 1000 personas cada día en directo y no sabe que el tipo volador es débil frente al hielo, me dice que si sale votado mata a su starter en el primer gym",
         previousParticipations: [
             { edition: "1ª Edición", result: "Ronda Preliminar" },
             { edition: "2ª Edición", result: "Primera Ronda" }
@@ -108,10 +108,11 @@ const participants = [
         number: 5,
         name: "18Dmon",
         avatar: "imagenes/18dmon.jpg",
-        starterPokemon: "Sin Datos",
+        starterPokemon: "Lotoad",
+        pokemonImage: "imagenes/lotoad.png",
         hasCoach: false,
         coachName: "Coordinador Drew",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "El verdadero egoísta en todo esto, a esta inacup viene solo y con una aura inmensa, pregúntale a Neicho que paso en el retiro cuando se enfrento a Torcor",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participó" },
             { edition: "2ª Edición", result: "No participó" }
@@ -162,10 +163,11 @@ const participants = [
         number: 7,
         name: "Gota",
         avatar: "imagenes/gota.jpg",
-        starterPokemon: "Blaziken",
+        starterPokemon: "Dratini",
+        pokemonImage: "imagenes/dratini.png",
         hasCoach: false,
         coachName: "Coordinador Drew",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Este tío te firma whipear en el primer gym y encima se gasta las potas pa hacerse un RomCola, dice el joven thano que el pesao es bueno para de decirle noseguicosa... JEMS...",
         previousParticipations: [
             { edition: "1ª Edición", result: "Primera Ronda" },
             { edition: "2ª Edición", result: "Ronda Preliminar" }
@@ -188,12 +190,13 @@ const participants = [
     {
         id: 8,
         number: 8,
-        name: "DaniSan/SolEleven",
-        avatar: "imagenes/gota.jpg",
-        starterPokemon: "Blaziken",
+        name: "PanaGRK/SolEleven",
+        avatar: "imagenes/pana.jpg",
+        starterPokemon: "Bulbasur",
+        pokemonImage: "imagenes/bulbasur.png",
         hasCoach: true,
-        coachName: "PanaGK",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        coachName: "Dani-San",
+        bio: "Petronio, Patrimonio y el Swinger de Dani-san dos personas jugando la aventura y aun así en la anterior perdieron en primera es ilegal frontear así en españa?",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participó" },
             { edition: "2ª Edición", result: "Primera Ronda" }
@@ -202,10 +205,10 @@ const participants = [
             twitter: "@SolEleven10",
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
-            avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+            bio: "Son dos personas las que les tienen que hacer caso , y solo da show, la tercera rueda de esta pareja tan especial",
+            avatar: "imagenes/dan.jpg",
             socialMedia: {
-                twitter: "@PanaGRK",
+                twitter: "@InazumaXFifa",
             }
         }
     },
@@ -214,24 +217,25 @@ const participants = [
         number: 9,
         name: "ToniGamer",
         avatar: "imagenes/toni.jpg",
-        starterPokemon: "Blaziken",
-        hasCoach: false,
-        coachName: "PanaGK",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        starterPokemon: "Mudkip",
+        pokemonImage: "imagenes/mudkip.png",
+        hasCoach: true,
+        coachName: "Froxstor",
+        bio: "ToniGamer, Medussier, Goalkeeper, pero sobretodo un jugon de manual, si alguno lo necesitais, pedirle un mcflurry de kitkat que eso se le da especialmente bien",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participó" },
             { edition: "2ª Edición", result: "No participó" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@ToniGamer2004",
+            youtube: "@tonig4mer_243",
+            twitch: "tonigamer_24"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
-            avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+            bio: "El Nazarí de los Pokémon ⚪🔴 Fan del Granada CF, entrena con la misma pasión que siente por el Nuevo Los Cármenes. Sus estrategias son tan impredecibles como los resultados del Granada.",
+            avatar: "imagenes/froxstor.jpg",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                twitter: "@Frosto_Lock",
             }
         }
     },
@@ -240,17 +244,18 @@ const participants = [
         number: 10,
         name: "AxelRider44",
         avatar: "imagenes/axel_ryder.png",
-        starterPokemon: "Blaziken",
+        starterPokemon: "Ralts",
+        pokemonImage: "imagenes/ralts.png",
         hasCoach: false,
         coachName: "PanaGK",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Los expertos le llaman 'Yostin La Marrassh', los sabios conocen su huella digital y los listos prefieren no toprase con él, cuidado con este tío lo digo enserio... MIRU",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participó" },
             { edition: "2ª Edición", result: "Octavos de Final" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@AxelRider44",
+            twitch: "axelrider44"
         },
         coachInfo: {
             bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
@@ -266,17 +271,19 @@ const participants = [
         number: 11,
         name: "ShinbuxD",
         avatar: "imagenes/shinbu.jpg",
-        starterPokemon: "Blaziken",
+        starterPokemon: "Elekid",
+        pokemonImage: "imagenes/elekid.png",
         hasCoach: false,
         coachName: "PanaGK",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Tiene muchas series y lockes, pero por lo que de verdad es conocido es por su gran carisma, es decir , su gran bigote",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participó" },
             { edition: "2ª Edición", result: "No participó" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@shinbuxD",
+            youtube: "@shinbuIE",
+            twitch: "shinbutv",
         },
         coachInfo: {
             bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
@@ -293,19 +300,20 @@ const participants = [
         name: "Gandares",
         avatar: "imagenes/gandares.jpeg",
         starterPokemon: "Poliwag",
+        pokemonImage: "imagenes/poliwag.png",
         hasCoach: true,
         coachName: "Yurkeh1",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Fan de Gandares Incondicional, conocido como 'EL NENE', es Zenteller de corazón , en la Inacup dio la sorpresa y en esta busca repetirlo",
         previousParticipations: [
             { edition: "1ª Edición", result: "Primera Ronda" },
             { edition: "2ª Edición", result: "Semifinales" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@GaannFA",
+            twitch:"gandaress"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Busca su 4 semifinal consecutiva, es tan bueno que llevo a toñitous a unas semifinales, con gandares ya van dos años en el top 4 , lograra llegar a la final de una vez por todas.",
             avatar: "imagenes/yurkeh.jpg",
             socialMedia: {
                 twitter: "@yurkeh1",
@@ -317,24 +325,25 @@ const participants = [
         number: 13,
         name: "DokkanPedro",
         avatar: "imagenes/dokkan.jpg",
-        starterPokemon: "Blaziken",
+        starterPokemon: "Beldum",
+        pokemonImage: "imagenes/beldum.png",
         hasCoach: true,
         coachName: "Jaime Pedregal",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Uno de la nueva de inazuma que la esta rompiendo durísimo, eso sí, he preguntado a realizacion y la gente sigue sin saber QUIEN COÑO ES PEDROGANI!",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participó" },
             { edition: "2ª Edición", result: "No participó" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@DokkanPedro",
+            youtube: "@PedroKann"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Si la gente no sabe quién es su compañero, como van a saber quién es él. ",
             avatar: "imagenes/jaime.jpg",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                twitter: "@JaimePedregal",
+                youtube: "@JaimePedregal"
             }
         }
     },
@@ -343,17 +352,16 @@ const participants = [
         number: 14,
         name: "Andresmxrtinez",
         avatar: "imagenes/Andresmxrtinez.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "No conocido",
         hasCoach: false,
         coachName: "Jaime Pedregal",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Andres ya ha dejado claro en varios eventos que sabe mucho de pokemon, lo que nosotros tambien sabemos mucho es que el cabron es guapo a rabiar.",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participó" },
             { edition: "2ª Edición", result: "No participó" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@andresmxrtinez",
         },
         coachInfo: {
             bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
@@ -370,10 +378,10 @@ const participants = [
         name: "Gonrured",
         avatar: "imagenes/axel_Sevilla.jpg",
         starterPokemon: "Starly",
-        pokemonImage: "starly.png",
+        pokemonImage: "imagenes/starly.png",
         hasCoach: true,
         coachName: "RaulcanXd",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Administrador y creador de la nueva Zentella. Llego a la final en la primera Inacup , pero en la segunda le quitaron el coach. Volviendo con su coach y compañero RaulcanXd lograra volver a repetir la hazaña de llegar a la final, pero esta vez ganarla",
         previousParticipations: [
             { edition: "1ª Edición", result: "Finalista" },
             { edition: "2ª Edición", result: "Octavos de final" }
@@ -384,11 +392,10 @@ const participants = [
             youtube:"@Thegonrured",
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Es tan bueno que en la InaCup2 lo banearon. Una vez llego al top en el showdown.",
             avatar: "imagenes/infernape.PNG",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                twitter: "@Raulcanxd",
             }
         }
     },
@@ -397,10 +404,11 @@ const participants = [
         number: 16,
         name: "RocketPunto",
         avatar: "imagenes/rocket.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Gible",
+        pokemonImage: "imagenes/gible.png",
         hasCoach: true,
         coachName: "FlyingPizza",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Creador de la prestigiosa liga Cohete busca pasar por primera vez unos cuartos de final.",
         previousParticipations: [
             { edition: "1ª Edición", result: "Cuartos de Final" },
             { edition: "2ª Edición", result: "Cuartos de Final" }
@@ -410,11 +418,11 @@ const participants = [
             instagram: "@hoenn_coordinator_may"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Tiene de perfil una puta pizza voladora es la cabra sin mas.",
             avatar: "imagenes/pizza.jpeg",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                // twitter: "@DrewCoordinator",
+                // instagram: "@drew_contests"
             }
         }
     },
@@ -423,24 +431,25 @@ const participants = [
         number: 17,
         name: "Ferrio21",
         avatar: "imagenes/ferrio.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Chimchar",
+        pokemonImage: "imagenes/chimchar.png",
         hasCoach: true,
         coachName: "Hunt",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Creador de Inazuma Eleven Manager, en la primera edicion fue el pueblo , en la anterior un mason , ya tengo ganas de ver que le depara en esta .",
         previousParticipations: [
             { edition: "1ª Edición", result: "Cuartos de Final" },
             { edition: "2ª Edición", result: "Cuartos de Final" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@ferrio21",
+            twitch: "Ferrio21"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Creador de momentos y memes que quedan para la historia de este torneo, sera capaz de llevar a ferrio a la victoria esta vez o se quedara con las risas solo.",
             avatar: "imagenes/hunt.jpeg",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                // twitter: "@DrewCoordinator",
+                // instagram: "@drew_contests"
             }
         }
     },
@@ -449,24 +458,25 @@ const participants = [
         number: 18,
         name: "NeoGod",
         avatar: "imagenes/neogod.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Charmander",
+        pokemonImage: "imagenes/charmander.png",
         hasCoach: true,
         coachName: "AddoVk",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "No entreis a su cuenta de X a partir de las 00:00 sus tierlist todavian me visitan. En toda la comunidad es considerado un dios , lograra salir con la victoria",
         previousParticipations: [
             { edition: "1ª Edición", result: "Ronda Preliminar" },
             { edition: "2ª Edición", result: "Primera Ronda" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@Neitoelbonito",
+            twitch: "@neogodd"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Este tio no necesita presentacion, quien no lo conozca tiene un gran problema.",
             avatar: "imagenes/addo.jpg",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                twitter: "@addo_vk",
+                twitch: "addovk"
             }
         }
     },
@@ -475,24 +485,28 @@ const participants = [
         number: 19,
         name: "Deysh",
         avatar: "imagenes/deysh.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Bulbasur",
+        pokemonImage: "imagenes/bulbasur.png",
         hasCoach: true,
         coachName: "Darren13",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "El crush de media comunidad y no estoy de broma, dice que si gana saca el mod definitivo del mario kart, así que ya sabéis a quien animar...",
         previousParticipations: [
             { edition: "1ª Edición", result: "Ronda Preliminar" },
             { edition: "2ª Edición", result: "Primera Ronda" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@Deysh_",
+            twitch: "Deysh_",
+            youtube: "@Deysh_"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Betico y fan de Darren , como se nota que le gusta los segundones",
             avatar: "imagenes/darren.jpg",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                twitter: "@darren__13yt",
+                instagram: "@lachancedarren__13",
+                twitch: "darren__13",
+                youtube: "@darren__13"
             }
         }
     },
@@ -501,24 +515,25 @@ const participants = [
         number: 20,
         name: "Shheyla",
         avatar: "imagenes/sheyla.jpg",
-        starterPokemon: "No Sabemos",
+        pokemonImage: "imagenes/porygon.png",
+        starterPokemon: "Porygon",
         hasCoach: true,
         coachName: "SebasTorrado",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Esta dupla en la AseKitasCup le metia miedo a Belcebu Junior, veamos si ahora Shheyla le hace mas caso a sebas, y pasan de la 5ta medalla, animo sebas...",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participo" },
             { edition: "2ª Edición", result: "No participo" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@shheeyla__",
+            twitch: "shheyla"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Tiene que aguantar a Sheyla, es ganador",
             avatar: "imagenes/sebas.jpg",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                twitter: "@SebasTorrad0_",
+                youtube: "@Sebas_Torrad0"
             }
         }
     },
@@ -527,17 +542,16 @@ const participants = [
         number: 21,
         name: "Yuu",
         avatar: "imagenes/yuu.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "No conocido",
         hasCoach: false,
         coachName: "SebasTorrado",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Se llevo el mejor clip de la edicion pasada, el marill shiny con teletransporte le jodio, la unica referencia a The Walking Dead en la seria va a ser su estado en la 3a medalla",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participo" },
             { edition: "2ª Edición", result: "Primera Ronda" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@faelafelito",
         },
         coachInfo: {
             bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
@@ -553,24 +567,25 @@ const participants = [
         number: 22,
         name: "Mancha",
         avatar: "imagenes/mancha.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Swinub",
+        pokemonImage: "imagenes/swinub.png",
         hasCoach: true,
         coachName: "Diyeru",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "En esta INACUP va a jugar comunicándose por código morse, después de la hostia que le metió al micro eso ya no funciona... esto si es overol JOMS",
         previousParticipations: [
             { edition: "1ª Edición", result: "Ronda Preliminar" },
             { edition: "2ª Edición", result: "Primera Ronda" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@manchabeti33",
+            instagram: "@mancha_08"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Tiene al Emperador Palpatine con la camiseta de españa, se puede tener mas carisma.",
             avatar: "imagenes/Diyeridú.jpeg",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                // twitter: "@DrewCoordinator",
+                // instagram: "@drew_contests"
             }
         }
     },
@@ -579,24 +594,26 @@ const participants = [
         number: 23,
         name: "Urko",
         avatar: "imagenes/urko.png",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Treecko",
+        pokemonImage: "imagenes/treecko.png",
         hasCoach: true,
         coachName: "Javiaarelas",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Se le ha visto por la ruta 33 gritando algo de Remate torres gemelas o algo así, no os vayáis a acercar mucho no vaya a ser que lo que pone en su título sea verdad...",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participo" },
             { edition: "2ª Edición", result: "No participo" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@urko_25",
+            twitch: "urko_25",
+            youtube: "@urko_25"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Duo Explosivo se llevan mejor que un derbi del Pais Vasco.",
             avatar: "imagenes/javiaarela.jpg",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                twitter: "@javivarela56",
+                twitch: "javivaarela"
             }
         }
     },
@@ -605,17 +622,20 @@ const participants = [
         number: 24,
         name: "CharlyAsekas",
         avatar: "imagenes/charly.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Swinub",
+        pokemonImage: "imagenes/swinub.png",
         hasCoach: false,
         coachName: "Javiaarelas",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Como este evento no es suyo, no ha encontrado ningún coach para que le ayude ahora reacciona a anime y hace eventos ",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participo" },
             { edition: "2ª Edición", result: "Ronda Preliminar" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@CharlyAsekas_",
+            twitch: "charlyasekas",
+            youtube: "@CharlyAsekas_"   
+            // instagram: "@hoenn_coordinator_may"
         },
         coachInfo: {
             bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
@@ -631,17 +651,20 @@ const participants = [
         number: 25,
         name: "AsceroBlack",
         avatar: "imagenes/ascero.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Squirtle",
+        pokemonImage: "imagenes/squirtle.png",
         hasCoach: false,
         coachName: "Javiaarelas",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Conocido como Flota Ixar, y creador de los Inazuma Squid Games viene a demostrar el sabor de la pizza de Iker",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participo" },
             { edition: "2ª Edición", result: "No participo" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@asceroblack_",
+            instagram: "@asceroblack",
+            twitch: "asceroblack_",
+            youtube: "@AsceroBlackk"
         },
         coachInfo: {
             bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
@@ -657,17 +680,18 @@ const participants = [
         number: 26,
         name: "77Daxx",
         avatar: "imagenes/dax.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Chimchar",
+        pokemonImage: "imagenes/chimchar.png",
         hasCoach: false,
         coachName: "Javiaarelas",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "El que según para muchos es el mejor portero de las quedadas, promete muchísimo y eso que con una ceja menos disminuye su visión.",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participo" },
             { edition: "2ª Edición", result: "No participo" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@77Daxx",
+            twitch: "daxx77_"
         },
         coachInfo: {
             bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
@@ -683,24 +707,25 @@ const participants = [
         number: 27,
         name: "Bopeh",
         avatar: "imagenes/bopeh.png",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Lotad",
+        pokemonImage: "imagenes/lotad.png",
         hasCoach: true,
         coachName: "Andrejandromagno",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Esencial de las INACUPS, en la 1 dio pena, en la 2 fue decente y en la 3 volverá a dar pena lo presiento... Fan de NosePass!!",
         previousParticipations: [
             { edition: "1ª Edición", result: "No se paso el juego" },
             { edition: "2ª Edición", result: "Cuartos de Final" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@Bopeh_",
+            twitch: "Bopeh_",
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Acompañara a Bopeh con el objetivo de ganar, despues de la carrileada del año pasado.",
             avatar: "imagenes/andrejandro.avif",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                // twitter: "@DrewCoordinator",
+                // instagram: "@drew_contests"
             }
         }
     },
@@ -709,24 +734,25 @@ const participants = [
         number: 28,
         name: "Erninsky22",
         avatar: "imagenes/Erninsky22.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Squirtle",
+        pokemonImage: "imagenes/squirtle.png",
         hasCoach: false,
         coachName: "Andrejandromagno",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Si hay INACUP tiene que estar este tío, es el rey de esto, un pov super recomendado de ver, y encima zenteller!!",
         previousParticipations: [
             { edition: "1ª Edición", result: "Ronda Previa" },
             { edition: "2ª Edición", result: "Primera Ronda" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@Erninsky22",
+            twitch: "erninsky"
         },
         coachInfo: {
             bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
             avatar: "imagenes/andrejandro.avif",
             socialMedia: {
-                twitter: "@DrewCoordinator",
-                instagram: "@drew_contests"
+                // twitter: "@Erninsky22",
+                // twitch: "erninsky"
             }
         }
     },
@@ -735,20 +761,21 @@ const participants = [
         number: 29,
         name: "RaiDamant",
         avatar: "imagenes/rai.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "No conocido",
         hasCoach: true,
         coachName: "Feygar",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "En cuarta generación no hay smolivs, pero esta tía los varea igual con su pincel, dibujitos, mala conexión y sobretodo... Ilia",
         previousParticipations: [
             { edition: "1ª Edición", result: "Ronda Previa" },
             { edition: "2ª Edición", result: "Primera Ronda" }
         ],
         socialMedia: {
-            twitter: "@MayCoordinator",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@RaiDamant",
+            twitch: "raidamant",
+            youtube: "@RaiDamant"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
+            bio: "Intentara hacer mixi max con Rai y que llege lejos , pero lo lograra",
             avatar: "imagenes/fey.jpg",
             socialMedia: {
                 twitter: "@DrewCoordinator",
@@ -761,10 +788,11 @@ const participants = [
         number: 30,
         name: "Nazan",
         avatar: "imagenes/nazan.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Marill",
+        pokemonImage: "imagenes/marill.png",
         hasCoach: false,
         coachName: "Feygar",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "El campeón de la primera edición pero, nos da igual me ha comentado que para el torneo tiene a Ikea de coach pero se lo comento en el ave",
         previousParticipations: [
             { edition: "1ª Edición", result: "Ganador" },
             { edition: "2ª Edición", result: "Finalista" }
@@ -787,17 +815,18 @@ const participants = [
         number: 31,
         name: "NotMary_05",
         avatar: "imagenes/mary.jpg",
-        starterPokemon: "No Sabemos",
+        starterPokemon: "Dratini",
+        pokemonImage: "imagenes/dratini.png",
         hasCoach: true,
         coachName: "SoyNakah",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        bio: "Ha pasado de usar twitter a usar el videochat de pokemon, a ver si se le da igual de bien farmear bonguris como farmea likes...",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participó" },
             { edition: "2ª Edición", result: "Primera Ronda" }
         ],
         socialMedia: {
             twitter: "@NotMary_05",
-            instagram: "@hoenn_coordinator_may"
+            // instagram: "@hoenn_coordinator_may"
         },
         coachInfo: {
             bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
@@ -813,23 +842,25 @@ const participants = [
         number: 32,
         name: "Neicho",
         avatar: "imagenes/neicho.jpg",
-        starterPokemon: "No Sabemos",
-        hasCoach: false,
-        coachName: "SoyNakah",
-        bio: "Coordinadora Pokémon de Hoenn con un estilo de combate elegante y estratégico.",
+        starterPokemon: "Pidgey",
+        pokemonImage: "imagenes/pidgey.png",
+        hasCoach: true,
+        coachName: "ELPolloL0k0",
+        bio: "Ella no decepciona como el ibis, El bicho me lesiona me va a hacer un esguince No me podia creer Lo que me hacia esa tía ella lo saltaba como yo con Skypiera",
         previousParticipations: [
             { edition: "1ª Edición", result: "Octavos de final" },
             { edition: "2ª Edición", result: "Primera Ronda" }
         ],
         socialMedia: {
-            twitter: "@NotMary_05",
-            instagram: "@hoenn_coordinator_may"
+            twitter: "@Neicho_",
+            twitch: "neicholives"
         },
         coachInfo: {
-            bio: "Coordinador experto especializado en combates elegantes y estratégicos.",
-            avatar: "imagenes/naka.jpg",
+            bio: "Lograra dar cabeza al niño o se sumiran en el abismo juntos.",
+            avatar: "imagenes/polloloko.jpg",
             socialMedia: {
-                twitter: "@SoyNakah",
+                twitter: "@ELPolloL0k0",
+                youtube: "@elpolloloko2587",
                 // instagram: "@drew_contests"
             }
         }
