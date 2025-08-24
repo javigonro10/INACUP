@@ -107,7 +107,7 @@ const participants = [
         id: 5,
         number: 5,
         name: "18Dmon",
-        avatar: "imagenes/Dmon.jpg",
+        avatar: "imagenes/dmon.jpg",
         starterPokemon: "Lotoad",
         pokemonImage: "imagenes/lotoad.png",
         hasCoach: false,
@@ -937,5 +937,6 @@ const participants = [
 
 // Generar participantes adicionales
 generateAdditionalParticipants();
+
 
 
