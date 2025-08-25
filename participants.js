@@ -788,8 +788,8 @@ const participants = [
         number: 30,
         name: "Nazan",
         avatar: "imagenes/nazan.jpg",
-        starterPokemon: "Marill",
-        pokemonImage: "imagenes/marill.png",
+        starterPokemon: "Mareep",
+        pokemonImage: "imagenes/mareep.png",
         hasCoach: false,
         coachName: "Feygar",
         bio: "El campeón de la primera edición pero, nos da igual me ha comentado que para el torneo tiene a Ikea de coach pero se lo comento en el ave",
@@ -937,6 +937,7 @@ const participants = [
 
 // Generar participantes adicionales
 generateAdditionalParticipants();
+
 
 
 
