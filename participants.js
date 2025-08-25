@@ -220,7 +220,7 @@ const participants = [
         starterPokemon: "Mudkip",
         pokemonImage: "imagenes/mudkip.png",
         hasCoach: true,
-        coachName: "Froxstor",
+        coachName: "Froxtor",
         bio: "ToniGamer, Medussier, Goalkeeper, pero sobretodo un jugon de manual, si alguno lo necesitais, pedirle un mcflurry de kitkat que eso se le da especialmente bien",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participó" },
@@ -937,6 +937,7 @@ const participants = [
 
 // Generar participantes adicionales
 generateAdditionalParticipants();
+
 
 
 
