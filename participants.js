@@ -597,7 +597,7 @@ const participants = [
         starterPokemon: "Treecko",
         pokemonImage: "imagenes/treecko.png",
         hasCoach: true,
-        coachName: "Javiaarelas",
+        coachName: "Javiaarela",
         bio: "Se le ha visto por la ruta 33 gritando algo de Remate torres gemelas o algo así, no os vayáis a acercar mucho no vaya a ser que lo que pone en su título sea verdad...",
         previousParticipations: [
             { edition: "1ª Edición", result: "No participo" },
@@ -937,6 +937,7 @@ const participants = [
 
 // Generar participantes adicionales
 generateAdditionalParticipants();
+
 
 
 
